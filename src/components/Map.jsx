@@ -12,7 +12,7 @@ const InnerMap = withGoogleMap(({ location, marker }) => (
   </GoogleMap>
 ));
 
-const Map = ({ location }) =>  (
+const Map = ({ location }) => (
   <InnerMap
     containerElement={(<div />)}
     mapElement={(<div className="map" />)}

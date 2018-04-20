@@ -1,9 +1,10 @@
-$background-color : #eee ;
-$text-color : #444 ;
+$background-color : #eee;
+$text-color : #444;
 
 body {
   background-color: $background-color;
   color : $text-color;
+  margin : 0;
 }
 
 @import 'reset';

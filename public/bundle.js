@@ -31407,7 +31407,7 @@ var App = function App() {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: './' },
+            { to: '/react_hotelsearch/' },
             '\u30DB\u30C6\u30EB\u691C\u7D22'
           )
         ),
@@ -31416,7 +31416,7 @@ var App = function App() {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/about' },
+            { to: '/react_hotelsearch/about' },
             'About'
           )
         )
@@ -31424,8 +31424,8 @@ var App = function App() {
       _react2.default.createElement(
         _reactRouterDom.Switch,
         null,
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _SearchPage2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/about', component: _AboutPage2.default })
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/react_hotelsearch/', component: _SearchPage2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/react_hotelsearch/about', component: _AboutPage2.default })
       )
     )
   );

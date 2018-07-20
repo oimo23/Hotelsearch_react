@@ -13,7 +13,7 @@ const App = () => (
   <Router>
     <div className="app">
       <ul className="left-navi">
-        <li><Link to="/">ホテル検索</Link></li>
+        <li><Link to="./">ホテル検索</Link></li>
         <li><Link to="/about">About</Link></li>
       </ul>
       <Switch>

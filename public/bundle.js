@@ -31407,7 +31407,7 @@ var App = function App() {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/' },
+            { to: './' },
             '\u30DB\u30C6\u30EB\u691C\u7D22'
           )
         ),

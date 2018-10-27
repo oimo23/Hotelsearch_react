@@ -1,13 +1,29 @@
+* {
+font-family:'Lato', 'Noto Sans Japanese', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
 .app {
-  width: 1100px;
-  margin: 40px auto;
-  display: flex ;
+  display: block ;
+}
+
+h2 {
+  margin : 10px 0;
 }
 
 .left-navi {
-  margin-right: 40px;
-  padding-right: 40px;
   border-right: 1px solid #ccc;
+  display: flex;
+  padding : 10px;
+  background : #555;
+
+  a {
+  color: #fff;
+  text-decoration:none;
+  }
+
+  li {
+  margin: 0 10px;
+  }
 }
 
 .app-title {
@@ -16,13 +32,15 @@
 }
 
 .result-area {
-  display: flex;
+  margin : 40px 0;
 }
 
 .result-right {
-  margin-left: 20px;
+  margin : 45px auto;
+  width : 1000px;
+  max-width: 100%;
 }
 
 .search-page {
-  width : 900px;
+  margin : 40px 0;
 }

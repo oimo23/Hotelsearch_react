@@ -4,10 +4,26 @@
 
 td {
   padding : 5px ;
+  text-align: center;
 }
 
 th {
   min-width: 90px;
   padding: 5px;
   font-size: 14px;
+}
+
+.result-right {
+	th {
+		background: #555;
+		color : #fff;
+	}
+
+	tr td:nth-child(2) {
+		text-align: left;
+	}
+
+	a {
+		color : #555;
+	}
 }

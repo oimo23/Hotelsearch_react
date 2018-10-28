@@ -34591,7 +34591,7 @@ var SearchForm = function SearchForm(props) {
       className: 'search-form',
       onSubmit: function onSubmit(e) {
         e.preventDefault();
-        props.history.push('/?place=' + props.place);
+        props.history.push('./?place=' + props.place);
         props.startSearch();
       }
     },
@@ -34641,9 +34641,10 @@ var _axios2 = _interopRequireDefault(_axios);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var GEOCODE_ENDPOINT = 'https://maps.googleapis.com/maps/api/geocode/json';
+var GEOCODE_API_KEY = 'AIzaSyCTEQ2mmPsaDmw1PJ9DnsPz4sqOOUoqFCw';
 
 var geocode = exports.geocode = function geocode(place) {
-  return _axios2.default.get(GEOCODE_ENDPOINT, { params: { address: place } }).then(function (results) {
+  return _axios2.default.get(GEOCODE_ENDPOINT, { params: { address: place, key: GEOCODE_API_KEY } }).then(function (results) {
     var data = results.data;
     var status = data.status;
     var result = results.data.results[0];

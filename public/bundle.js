@@ -65824,6 +65824,16 @@ var AboutPage = function AboutPage() {
       "h1",
       { className: "app-title" },
       "\u3053\u306E\u30B5\u30A4\u30C8\u306B\u3064\u3044\u3066"
+    ),
+    _react2.default.createElement(
+      "p",
+      null,
+      "\u4F4F\u6240\u304B\u3089\u8FD1\u8FBA\u306E\u30DB\u30C6\u30EB\u306E\u60C5\u5831\u3092\u62BD\u51FA\u3059\u308B\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u3067\u3059\u3002"
+    ),
+    _react2.default.createElement(
+      "p",
+      null,
+      "React.js\u3001\u697D\u5929\u30C8\u30E9\u30D9\u30EBAPI,Google Geocoding API\u306A\u3069\u3092\u4F7F\u3063\u3066\u958B\u767A\u3057\u3066\u3044\u307E\u3059\u3002"
     )
   );
 };
